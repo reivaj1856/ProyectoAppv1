@@ -16,5 +16,10 @@ namespace ProyectoAppv1
         {
             InitializeComponent();
         }
+
+        private void Interfaz_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

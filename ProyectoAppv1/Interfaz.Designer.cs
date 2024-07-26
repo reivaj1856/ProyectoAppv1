@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "Interfaz";
             this.Text = "Interfaz";
+            this.Load += new System.EventHandler(this.Interfaz_Load);
             this.ResumeLayout(false);
 
         }
