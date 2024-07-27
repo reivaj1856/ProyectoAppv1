@@ -113,5 +113,38 @@
   <ItemGroup>
     <None Include="Resources\2618352.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Innovacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Innovacion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximizar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeja1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeja2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeja %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandeja %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dafont.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
