@@ -146,5 +146,14 @@
   <ItemGroup>
     <None Include="Resources\dafont.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SC-F6200_headon_690x460.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seleccioneUsuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seleccioneUsuario1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

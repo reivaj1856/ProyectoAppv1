@@ -43,7 +43,10 @@ namespace ProyectoAppv1
         {
 
         }
-
+        private void VaciarPanel()
+        {
+            panel5.Visible = false;
+        }
         private void panel3_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
@@ -58,6 +61,9 @@ namespace ProyectoAppv1
         private void button5_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
+            button5.Visible= false;
+            button11.Visible= true;
+            pictureBox3.Size = new Size(561, 414);
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -95,6 +101,40 @@ namespace ProyectoAppv1
             else
             {
                 MessageBox.Show("Por favor, ingrese una URL.");
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            button5.Visible = true;
+            button11.Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (!panel5.Visible)
+            {
+                panel5.Visible = true;
+            }
+            else
+            {
+                panel5.Visible = false;
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+
+            if (!panel4.Visible)
+            {
+                panel4.Visible = true;
+                panel5.Visible=false;
             }
         }
     }

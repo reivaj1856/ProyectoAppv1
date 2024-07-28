@@ -103,6 +103,10 @@ namespace ProyectoAppv1
 
         private void button1_Click(object sender, EventArgs e)
         {
+           Login();
+        }
+        public void Login()
+        {
             string name = textBox1.Text;
             string pass = textBox2.Text;
             if (seguridad.IniciarSesion(name, pass))
@@ -111,8 +115,16 @@ namespace ProyectoAppv1
                 i1.ShowDialog();
                 //this.Close();
             }
-            else {
+            else
+            {
                 MessageBox.Show("mo");
+            }
+        }
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar==13)
+            {
+                Login();
             }
         }
     }

@@ -18,8 +18,8 @@ namespace ProyectoAppv1
            conex = new SqlConnection();
 
             //cadenaConexion = "Data Source= DESKTOP-VSFDTI4\\SQLSERVEREXPRESS; Initial Catalog=Innovacion; Integrated Security = True";
-            cadenaConexion = "Data Source= DESKTOP-D46MFDH\\SQLEXPRESS; Initial Catalog=Innovacion; Integrated Security = True";
-
+            //cadenaConexion = "Data Source= DESKTOP-D46MFDH\\SQLEXPRESS; Initial Catalog=Innovacion; Integrated Security = True";
+            cadenaConexion = "Data Source= CROMER; Initial Catalog=Innovacion; Integrated Security = True";
         }
         public Usuario getUsuario(string name)
         {
