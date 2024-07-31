@@ -46,12 +46,55 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion.Designer.cs">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controlador.cs" />
+    <Compile Include="CostoPoleras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CostoPoleras.Designer.cs">
+      <DependentUpon>CostoPoleras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Detalles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Detalles.Designer.cs">
+      <DependentUpon>Detalles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Historial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historial.Designer.cs">
+      <DependentUpon>Historial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion.Designer.cs">
+      <DependentUpon>Impresion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaz.cs">
       <SubType>Form</SubType>
@@ -60,14 +103,58 @@
       <DependentUpon>Interfaz.cs</DependentUpon>
     </Compile>
     <Compile Include="Modelo.cs" />
+    <Compile Include="Pedido.cs" />
+    <Compile Include="Planchado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planchado.Designer.cs">
+      <DependentUpon>Planchado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Precio.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recuperar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recuperar.Designer.cs">
+      <DependentUpon>Recuperar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro.Designer.cs">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Usuario.cs" />
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion.resx">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CostoPoleras.resx">
+      <DependentUpon>CostoPoleras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detalles.resx">
+      <DependentUpon>Detalles.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Historial.resx">
+      <DependentUpon>Historial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impresion.resx">
+      <DependentUpon>Impresion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaz.resx">
       <DependentUpon>Interfaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planchado.resx">
+      <DependentUpon>Planchado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,6 +166,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Recuperar.resx">
+      <DependentUpon>Recuperar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro.resx">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -154,6 +247,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\seleccioneUsuario1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SK-PH120b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seguir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\configuracion-de-la-base-de-datos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\polo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camisa-polo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SC-F6200_headon_690x460-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DFS-10002-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expediente.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

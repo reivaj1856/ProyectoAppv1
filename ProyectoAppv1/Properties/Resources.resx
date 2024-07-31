@@ -118,67 +118,100 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bandeja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bandeja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bandeja (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bandeja (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="minimizar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\minimizar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="contraseña" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\contraseña.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="maximizar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maximizar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2618352" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2618352.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Innovacion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Innovacion1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="usuaario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\usuaario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bandeja1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bandeja1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="cerrar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cerrar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dafont" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dafont.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bandeja (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bandeja (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bandeja2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bandeja2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SC-F6200_headon_690x460" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SC-F6200_headon_690x460.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TextGris" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TextGris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="seleccioneUsuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\seleccioneUsuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cerrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cerrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Innovacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Innovacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="usuaario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuaario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maximizar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maximizar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandeja1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandeja1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Innovacion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Innovacion1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextGris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextGris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandeja (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandeja (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2618352" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2618352.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimizar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimizar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SC-F6200_headon_690x460-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SC-F6200_headon_690x460-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usuario1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuario1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seleccioneUsuario1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seleccioneUsuario1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="polo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\polo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="seleccioneUsuario1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\seleccioneUsuario1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DFS-10002-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DFS-10002-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandeja2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandeja2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SK-PH120b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SK-PH120b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seguir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seguir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandeja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandeja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Innovacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Innovacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contraseña" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contraseña.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bandeja (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bandeja (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="configuracion-de-la-base-de-datos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\configuracion-de-la-base-de-datos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seleccioneUsuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seleccioneUsuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SC-F6200_headon_690x460" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SC-F6200_headon_690x460.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dafont" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dafont.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="camisa-polo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\camisa-polo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expediente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expediente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

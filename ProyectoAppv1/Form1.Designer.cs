@@ -61,7 +61,7 @@
             this.checkBox1.Font = new System.Drawing.Font("Calibri Light", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.Color.White;
             this.checkBox1.Location = new System.Drawing.Point(87, 359);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(140, 25);
             this.checkBox1.TabIndex = 3;
@@ -75,7 +75,7 @@
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(143, 177);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(287, 34);
             this.textBox1.TabIndex = 6;
@@ -88,7 +88,7 @@
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.White;
             this.textBox2.Location = new System.Drawing.Point(143, 278);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(287, 34);
             this.textBox2.TabIndex = 7;
@@ -108,6 +108,7 @@
             this.linkLabel1.TabIndex = 11;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Olvidaste tu contraseña?";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // linkLabel2
             // 
@@ -121,6 +122,7 @@
             this.linkLabel2.TabIndex = 12;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "no tienes cuenta create una";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // button2
             // 
@@ -147,7 +149,7 @@
             this.button1.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(169, 404);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(195, 42);
             this.button1.TabIndex = 10;
@@ -160,7 +162,7 @@
             // 
             this.pictureBox2.Image = global::ProyectoAppv1.Properties.Resources.contraseña;
             this.pictureBox2.Location = new System.Drawing.Point(87, 263);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(360, 62);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -171,7 +173,7 @@
             // 
             this.pictureBox1.Image = global::ProyectoAppv1.Properties.Resources.usuaario;
             this.pictureBox1.Location = new System.Drawing.Point(87, 166);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(360, 57);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -195,7 +197,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

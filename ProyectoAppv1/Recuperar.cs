@@ -12,21 +12,19 @@ using System.Windows.Forms;
 
 namespace ProyectoAppv1
 {
-    public partial class Form1 : Form
+    public partial class Recuperar : Form
     {
         private int borderRadius = 20;
         private int borderSize = 2;
         private Color borderColor = Color.FromArgb(63, 162, 246);
         private Controlador seguridad;
         Cliente cliente = null;
-        public Form1()
+        public Recuperar()
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
             this.Padding = new Padding(borderSize);
-            seguridad=new Controlador();
-            // this.BackColor = borderColor;
-            
+            seguridad = new Controlador();
         }
         #region Graficos Redondeados y movimiento de la ventana
         #region ImportacionParaRedondeado
@@ -41,12 +39,6 @@ namespace ProyectoAppv1
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
         #endregion
-        //movimiento de la ventana
-        private void Form1_MouseDown(object sender, MouseEventArgs e)
-        {
-            ReleaseCapture();
-            SendMessage(this.Handle, 0x112, 0xf012, 0);
-        }
         #region graficarBorde
         private GraphicsPath GetRoundedPath(Rectangle rect, float radius)
         {
@@ -66,7 +58,7 @@ namespace ProyectoAppv1
             if (this.WindowState != FormWindowState.Minimized)
             {
                 using (GraphicsPath roundPath = GetRoundedPath(form.ClientRectangle, radius))
-                using (Pen penBorder = new Pen(borderColor, borderSize+2))
+                using (Pen penBorder = new Pen(borderColor, borderSize + 2))
                 using (Matrix transform = new Matrix())
                 {
                     graph.SmoothingMode = SmoothingMode.AntiAlias;
@@ -91,12 +83,14 @@ namespace ProyectoAppv1
             FormRegionAndBorder(this, borderRadius, e.Graphics, borderColor, borderSize);
         }
         #endregion
-
         #endregion
-        private void Form1_Load(object sender, EventArgs e)
+        //movimiento de la ventana
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
-
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -105,41 +99,27 @@ namespace ProyectoAppv1
 
         private void button1_Click(object sender, EventArgs e)
         {
-           Login();
-        }
-        public void Login()
-        {
-            string name = textBox1.Text;
-            string pass = textBox2.Text;
-            if (seguridad.IniciarSesion(name, pass))
+            string cuenta = textBox1.Text;
+            string pregunta = textBox2.Text;
+            Usuario us=seguridad.GetUsuarioPre(pregunta,cuenta);
+            if (us!=null)
             {
-                Interfaz i1 = new Interfaz(seguridad.getUsuario(name));
-                i1.ShowDialog();
-                //this.Close();
+                MessageBox.Show(us.Contraseña);
             }
             else
             {
-                MessageBox.Show("mo");
-            }
-        }
-        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar==13)
-            {
-                Login();
+                MessageBox.Show("pregunta incorrecta");
             }
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void Recuperar_Paint(object sender, PaintEventArgs e)
         {
-            Recuperar recuperar = new Recuperar();
-            recuperar.ShowDialog();
+            FormRegionAndBorder(this, borderRadius, e.Graphics, borderColor, borderSize);
         }
 
-        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            Registro registro= new Registro(cliente);
-            registro.ShowDialog();
+
         }
     }
 }
