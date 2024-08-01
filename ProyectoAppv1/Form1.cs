@@ -26,7 +26,6 @@ namespace ProyectoAppv1
             this.Padding = new Padding(borderSize);
             seguridad=new Controlador();
             // this.BackColor = borderColor;
-            
         }
         #region Graficos Redondeados y movimiento de la ventana
         #region ImportacionParaRedondeado
@@ -119,7 +118,7 @@ namespace ProyectoAppv1
             }
             else
             {
-                MessageBox.Show("mo");
+                MessageBox.Show("error de inicio de sesion");
             }
         }
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
